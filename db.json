@@ -1,108 +1,151 @@
 {
   "produtos": [
     {
-        "Nome":"Smartphone Moto G52, 128GB, 4GB RAM, Octa Core, Câmera Tripla 50MP, Tela de 6.6, Azul - PAU60034BR",
-        "url": "./images/telefone_0.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Moto G52, 128GB, 4GB RAM, Octa Core, Câmera Tripla 50MP, Tela de 6.6, Azul - PAU60034BR",
+      "url": "./images/telefone_0.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 0,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO_1",
-        "url": "./images/telefone_1.jpg",
-        "preco":"R$ 1.494,09"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO_1",
+      "url": "./images/telefone_1.jpg",
+      "preco": "R$ 1.494,09",
+      "id": 1,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Motorola Moto E22, 64GB, 4GB RAM, Octa Core, Câmera 16MP, Tela de 6.5, Preto - PAVU0000BR",
-        "url": "./images/telefone_2.jpg",
-        "preco":"R$ 1.159,79"
+      "Nome": "Smartphone Motorola Moto E22, 64GB, 4GB RAM, Octa Core, Câmera 16MP, Tela de 6.5, Preto - PAVU0000BR",
+      "url": "./images/telefone_2.jpg",
+      "preco": "R$ 1.159,79",
+      "id": 2,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Motorola Moto E20, 32GB, 2GB RAM, Octa Core, Câmera 13MP, Tela 6.5, Cinza - PARG0031BR",
-        "url": "./images/telefone_3.jpg",
-        "preco":"R$ 1.759,99"
+      "Nome": "Smartphone Motorola Moto E20, 32GB, 2GB RAM, Octa Core, Câmera 13MP, Tela 6.5, Cinza - PARG0031BR",
+      "url": "./images/telefone_3.jpg",
+      "preco": "R$ 1.759,99",
+      "id": 3,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A04s, 64GB, 4GB RAM, Octa Core, Câmera Tripla 50MP, Tela Infinita de 6.5, Preto - SM-A047MZKSZTO",
-        "url": "./images/telefone_4.jpg",
-        "preco":"R$ 1.256,99"
+      "Nome": "Smartphone Samsung Galaxy A04s, 64GB, 4GB RAM, Octa Core, Câmera Tripla 50MP, Tela Infinita de 6.5, Preto - SM-A047MZKSZTO",
+      "url": "./images/telefone_4.jpg",
+      "preco": "R$ 1.256,99",
+      "id": 4,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A54, 5G, 256GB, 8GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.4, Verde Lima - SM-A546ELGMZTO",
-        "url": "./images/telefone_5.jpg",
-        "preco":"R$ 1.869,00"
-    },{
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_6.jpg",
-        "preco":"R$ 1.456,06"
+      "Nome": "Smartphone Samsung Galaxy A54, 5G, 256GB, 8GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.4, Verde Lima - SM-A546ELGMZTO",
+      "url": "./images/telefone_5.jpg",
+      "preco": "R$ 1.869,00",
+      "id": 5,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_7.jpg",
-        "preco":"R$ 977,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_6.jpg",
+      "preco": "R$ 1.456,06",
+      "id": 6,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_8.jpg",
-        "preco":"R$ 800,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_7.jpg",
+      "preco": "R$ 977,99",
+      "id": 7,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_9.jpg",
-        "preco":"R$ 456,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_8.jpg",
+      "preco": "R$ 800,99",
+      "id": 8,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_10.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_9.jpg",
+      "preco": "R$ 456,99",
+      "id": 9,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_11.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_10.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 10,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_12.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_11.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 11,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_13.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_12.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 12,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_14.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_13.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 13,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_15.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_14.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 14,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_16.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_15.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 15,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_17.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_16.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 16,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_18.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_17.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 17,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_19.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_18.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 18,
+      "quantidade":0
     },
     {
-        "Nome":"Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
-        "url": "./images/telefone_20.jpg",
-        "preco":"R$ 1.229,99"
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_19.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 19,
+      "quantidade":0
+    },
+    {
+      "Nome": "Smartphone Samsung Galaxy A14, 5G, 128GB, 4GB RAM, Octa Core, Câmera Tripla de 50MP, Tela Infinita de 6.6, Preto - SM-A146MZKRZTO",
+      "url": "./images/telefone_20.jpg",
+      "preco": "R$ 1.229,99",
+      "id": 20,
+      "quantidade":0
     }
-]
+  ]
 }
