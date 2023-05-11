@@ -1,4 +1,3 @@
-
 fetch("db.json").then((Response) => {
   Response.json().then((produto) => {
     var section_products = document.querySelector("#main_products");
@@ -14,7 +13,7 @@ fetch("db.json").then((Response) => {
         <div class="price_image">
         ${produto.produtos[i].preco}
         </div>
-        <button key="${produto.produtos[i].id}" class="btn_buy">COMPRAR</button>
+        <button key="${produto.produtos[i].id}" name="${produto.produtos[i].Nome}" class="btn_buy">COMPRAR</button>
       </div>
       `;
     }
@@ -24,46 +23,64 @@ fetch("db.json").then((Response) => {
       btn_buy[a].addEventListener("click", function () {
         let key = this.getAttribute("key");
         produto.produtos[key].quantidade++;
-        console.log(key)
+
         atualizarCarro();
+
         return false;
       });
     }
 
-    function atualizarCarro(){
+    function atualizarCarro() {
+     
+      let card_product_info = document.querySelector(".card_product_info");
+ 
+      card_product_info.classList.remove("none")
+
       
-      let carrinho = document.querySelector(".carrinho");
-    carrinho.innerHTML="";
-    produto.produtos.map((val)=>{
-      if(val.quantidade>0){
-        carrinho.innerHTML+=`
+      produto.produtos.map((val) => {
         
-        <p>${val.Nome} e quantidade = ${val.quantidade}</p>
-        
-        `
-      }
-    })
+        if (val.quantidade > 0) {
+          card_product_info.innerHTML = "";
+          console.log(val)
+          card_product_info.innerHTML = `        
+        <p>${val.Nome}.</p>       
+        `;
+        val.quantidade=0;
+        }
+      });
+      setTimeout(() => {
+        window.document.body.addEventListener('click', tecpix)
+      
+      }, 100);
+      function tecpix(e){
+       
+         if(e.target!== card_product_info){
+           card_product_info.classList.add("none")
+         }
+         window.document.body.removeEventListener('click', tecpix, false);
+       }
+      
+     
     }
+
   });
 });
 
-function abrirCarrinho(){
+function abrirCarrinho() {
   let carrinho = document.querySelector(".carrinho");
-  let btn_fechar = document.querySelector("#fechar")
-  
-  carrinho.classList.remove("none")
-  btn_fechar.classList.remove("none")
-  btn_fechar.classList.add("block")
+  let btn_fechar = document.querySelector("#fechar");
+
+  carrinho.classList.remove("none");
+  btn_fechar.classList.remove("none");
+  btn_fechar.classList.add("block");
 }
 
-function fechar(){
+function fechar() {
   let carrinho = document.querySelector(".carrinho");
-  let btn_fechar = document.querySelector("#fechar")
-  
-  
-  
-carrinho.classList.add("none")
-btn_fechar.classList.remove("block")
-btn_fechar.classList.add("none")
+  let btn_fechar = document.querySelector("#fechar");
 
+  carrinho.classList.add("none");
+  btn_fechar.classList.remove("block");
+  btn_fechar.classList.add("none");
 }
+
